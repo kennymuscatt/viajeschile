@@ -1,101 +1,106 @@
-body, body*{
-    margin: 0;
-    padding: 0;
-    border: 0;
+body,
+body* {
+  margin: 0;
+  padding: 0;
+  border: 0;
 }
 body {
-    background-color: black;
+  background-color: black;
 }
 
-.navbar img{
-    height: 25px;
+.navbar img {
+  height: 25px;
 }
 
-.navbar-brand{
-    color: #ffff;
+.navbar-brand {
+  color: #ffff;
 }
 
-.nav-link{
-    color: #ffff;
+.nav-link {
+  color: #ffff;
 }
 
-.quienessomos h5{
-    text-align: center;
-    padding-top: 20px;
-    padding-bottom: 40px;
-
+.carousel-inner {
+  max-height: 40rem;
 }
+
+.carousel-inner img {
+  object-fit: scale-down;
+}
+
+.quienessomos h5 {
+  text-align: center;
+  padding-top: 20px;
+  padding-bottom: 40px;
+}
+
+.fa-solid {
+  background-color: #0dcaf0;
+  text-align: center;
+  color: #ffff;
+}
+
 .quienessomos {
-    color:white;
-    background-color: black;
+  color: white;
+  background-color: black;
 }
 
-.quienessomos i{
-    font-size: x-large;
+.quienessomos i {
+  font-size: x-large;
 }
 
-.destacados{
-    text-align: center;
-    color: white;
-    background-color: black;
-    padding: 40px;
-    padding-bottom: 40px;
-}
-
-.fa-solid{
-    background-color:#0dcaf0;
-    text-align: center;
-    color: #ffff;
-}
-
-.boton{
-    background-color: #0dcaf0;
-    color: #ffff;
-}
-
-footer {
-    background-color: #0dcaf0;
-    color: #ffff;
+.destacados {
+  text-align: center;
+  color: white;
+  background-color: black;
+  padding: 40px;
+  padding-bottom: 40px;
 }
 
 .card-custom img {
-    height: 6rem; width: 100%;
+  height: 6rem;
+  width: 100%;
 }
 
-.card-body{
-    background-color: #0dcaf0;
+.card-body {
+  background-color: #0dcaf0;
 }
 
 .card-text {
-    padding: 6px;
+  padding: 6px;
 }
 
-.contacto{
-    background-color: black;
-    color:white;
+.contacto {
+  background-color: black;
+  color: white;
 }
 
 .contacto button {
-    margin-top: 10px;
-    margin-bottom: 30px;
+  margin-top: 10px;
+  margin-bottom: 30px;
 }
 .contacto h5 {
-    text-align: center;
+  text-align: center;
 }
 
-.fa-brands {
-    font-size:25px;
-    padding-right: 5px;
+
+.boton {
+  background-color: #0dcaf0;
+  color: #ffff;
+}
+
+footer {
+  background-color: #0dcaf0;
+  color: #ffff;
 }
 
 footer .container {
-    padding-top: 15px;
-    padding-bottom: 15px;
-}
-.carousel-inner{
-    max-height: 40rem;
+  padding-top: 15px;
+  padding-bottom: 15px;
 }
 
-.carousel-inner img{
- object-fit: scale-down;   
-}
+.fa-brands {
+    font-size: 25px;
+    padding-right: 5px;
+    color: #ffff;
+  }
